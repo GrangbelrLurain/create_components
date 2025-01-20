@@ -1,0 +1,27 @@
+{
+  "name": "@whole-ui/react",
+  "version": "0.0.1",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@whole-ui/components": "workspace:*",
+    "@whole-ui/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

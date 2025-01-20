@@ -1,0 +1,15 @@
+{
+  "name": "@whole-ui/plugins/lifecycle",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/app/main.ts",
+  "module": "./src/app/main.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "@whole-ui/plugins": "workspace:*"
+  }
+}

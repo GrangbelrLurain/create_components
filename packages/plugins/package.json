@@ -1,0 +1,23 @@
+{
+  "name": "@whole-ui/plugins",
+  "version": "0.0.1",
+  "workspaces": [
+    "lifecycle"
+  ],
+  "exports": {
+    "./lifecycle": {
+      "import": "./lifecycle/dist/index.mjs",
+      "types": "./lifecycle/dist/index.d.ts"
+    }
+  },
+  "files": [
+    "lifecycle/dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "@whole-ui/core": "workspace:*"
+  }
+}

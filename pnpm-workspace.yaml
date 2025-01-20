@@ -1,0 +1,6 @@
+packages:
+  - "packages/*"
+  - "packages/plugins/*"
+  - "packages/components/*"
+  - "packages/react/*"
+  - "packages/core/*"

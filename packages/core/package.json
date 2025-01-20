@@ -1,0 +1,13 @@
+{
+  "name": "@whole-ui/core",
+  "version": "0.0.1",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  }
+}

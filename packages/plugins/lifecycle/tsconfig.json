@@ -1,0 +1,22 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@whole-ui/core/*": ["../../core/src/*"]
+    }
+  },
+  "references": [{ "path": "../../core" }],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
